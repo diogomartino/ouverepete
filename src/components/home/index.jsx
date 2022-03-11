@@ -57,7 +57,7 @@ const Home = () => {
                 <div className="d-flex flex-column justify-content-center">
                     <h1 className="text-center">Cidade FM</h1>
                     <h3 className="text-center">Quantas músicas repete?</h3>
-                    <p className="text-center">Se achas que estão sempre a passar as mesmas músicas na Cidade FM, então estás no sítio certo para tirares as dúvidas.</p>
+                    <p className="text-center">Se achas que estão sempre a passar as mesmas músicas na Cidade FM, então estás no sítio certo para teres a certeza.</p>
                     <div className={styles.actions}>
                         {!loading ?
                             (<button className="btn btn-lg btn-outline-success" onClick={fetchDataHandler} disabled={!configs.hoje && !configs.ontem}>POR FAVOR MOSTRA-ME!</button>)
@@ -81,8 +81,9 @@ const Home = () => {
                         </label>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center mt-2">
-                    <a className={styles.github} href="https://github.com" target="_blank">Github</a>
+                <div className="d-flex flex-column justify-content-center mt-2">
+                    <a className={styles.github} href="https://github.com/bruxo00/ouverepete" target="_blank">Github</a>
+                    <a className={styles.github} href="https://www.youtube.com/watch?v=4o84CvRJ9uw" target="_blank">Pela Música</a>
                 </div>
                 {!loading && cidadeData.length > 0 && (
                     <>
