@@ -1,0 +1,26 @@
+.song {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.song:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.name {
+    font-size: 0.8rem;
+}
+
+.cover {
+    width: 100px;
+    height: 100px;
+}
+
+.count {
+    font-weight: bold;
+    font-size: 1.4rem;
+}

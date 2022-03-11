@@ -1,0 +1,26 @@
+.items {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.configs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    text-align: center;
+    font-size: 0.6rem;
+    text-decoration: underline;
+}
