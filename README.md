@@ -1,2 +1,2 @@
 # ouverepete
-Quantas músicas a Cidade FM repete? Descobre em [https://ouverepete.pt](https://ouverepete.pt).
+Quantas músicas a Cidade FM repete? Descobre em [https://ouverepete.diogomartino.run/](https://ouverepete.diogomartino.run/).
